@@ -114,16 +114,6 @@ except Exception as e:
     exit()
 
 
-# === Fichiers prompts ===
-prompts_files = {
-    "prose": "prompts/prompt_3.txt",
-    "prompt_0": "prompts/prompt_0.txt",
-    "prompt_1": "prompts/prompt_1.txt",
-    "prompt_4": "prompts/prompt_4.txt",
-    "prompt_emotion": "prompts/prompt_emotion.txt"
-}
-current_prompt = "prompt_emotion"
-
 # === Gestes robot ===
 def angry():
     furhat.set_led(red=255, green=0, blue=0)
