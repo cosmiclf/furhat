@@ -7,7 +7,7 @@ import torch.nn as nn
 
 # === CONFIGURATION ===
 MODEL_PATH = "emotion_detection_models/5classes.pth"
-CLASSES = ['angry','disgust', 'fear', 'happy', 'sad',]
+CLASSES = ['angry','disgust', 'fear', 'happy', 'sad']
 NUM_CLASSES = len(CLASSES)
 
 # === Chargement du modèle fine-tuné ===
